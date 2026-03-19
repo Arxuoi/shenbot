@@ -1,0 +1,31 @@
+{
+  "name": "naze-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot Multi Fitur dengan QR Code untuk Termux",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "whatsapp-bot",
+    "termux",
+    "multi-device",
+    "baileys",
+    "qr-code"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "axios": "^1.6.2",
+    "chalk": "^4.1.2",
+    "fs-extra": "^11.1.1",
+    "moment-timezone": "^0.5.43",
+    "pino": "^8.16.2",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
