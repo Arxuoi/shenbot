@@ -31,8 +31,8 @@ pkg install nodejs git -y
 
 ```bash
 cd ~
-git clone https://github.com/username/whatsapp-bot.git
-cd whatsapp-bot
+git clone https://github.com/Arxuoi/shenbot
+cd shenbot
 ```
 
 Atau buat folder manual:
